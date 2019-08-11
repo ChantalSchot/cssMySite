@@ -5,13 +5,38 @@ Colors: #eae7dc #D8C3A5 #8E8D8A #E98074 #E85A4F
 */
 
 
+/* GENERAL ELEMENTS */
+
 body {
-	background-color: #eae7dc;
 	color: #E85A4F;
 	font-family: 'Work Sans', sans-serif;
+	margin: 0px;
 	text-align: center;
 }
 
 h1 {
 	color: #E98074;
+	margin: 0px;
+}
+
+p {
+	margin: 0px;
+}
+
+/* GENERAL CLASSES */
+
+.top-container {
+	background-color: #eae7dc;
+}
+
+.middle-container {
+	background-color: #D8C3A5;
+	height: 200px;
+	width: 200px;
+}
+
+.bottom-container {
+	background-color: #8E8D8A;
+	height: 200px;
+	width: 200px;
 }
