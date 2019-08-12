@@ -9,34 +9,63 @@ Colors: #eae7dc #D8C3A5 #8E8D8A #E98074 #E85A4F
 
 body {
 	color: #E85A4F;
-	font-family: 'Work Sans', sans-serif;
-	margin: 0px;
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
 	text-align: center;
 }
 
 h1 {
 	color: #E98074;
-	margin: 0px;
+	margin: 0;
+	font-family: 'Clicker Script', sans-serif;
+	font-size: 60px;
 }
 
 p {
-	margin: 0px;
+	margin: 0;
 }
 
 /* GENERAL CLASSES */
 
 .top-container {
 	background-color: #eae7dc;
+	position: relative;
+	width: 100vw;
+	padding-top: 100px;
+}
+
+.title-container {
+	position: relative;
+	margin: 0 auto;
+	max-width: 700px;
+}
+
+.bottom-cloud {
+	position: absolute;
+	left: 1.2em;
+	top: 5em;
+}
+
+.top-cloud {
+	position: absolute;
+	right: 2.5em;
+	top: -1.5em;
 }
 
 .middle-container {
 	background-color: #D8C3A5;
-	height: 200px;
-	width: 200px;
 }
 
 .bottom-container {
 	background-color: #8E8D8A;
-	height: 200px;
-	width: 200px;
+}
+
+.avatar {
+	margin: 30px 0 10px;
+	width: 100px;
+	height: 100px;
+}
+
+.fa-adobe {
+	color: #eae7dc;
 }
